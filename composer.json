@@ -1,0 +1,18 @@
+{
+    "name": "shahariaazam/composer-demo-project",
+    "description": "A demo package for composer. Only for demonstration purpose",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shaharia Azam",
+            "email": "mail@shaharia.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Composer\\Demo\\Project\\": "src"
+        }
+    }
+}
